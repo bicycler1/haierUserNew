@@ -157,7 +157,7 @@ export default {
       let element = $('div.prompt-font')[0]
 
       // 调试程序
-      let routeData = router.resolve({ path: '/headquarter' })
+      let routeData = router.resolve({ path: '/community' })
       window.open(routeData.href, '_blank')
 
       if (this.isAllFillIn) {
